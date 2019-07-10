@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href= 'D:/eclipse/SM2/SM2_Automation/screenshots/CreateAViewUnderSupplier4cand4d2019-07-04-06-16-56.png'target='_blank' ><img src='D:/eclipse/SM2/SM2_Automation/screenshots/CreateAViewUnderSupplier4cand4d2019-07-04-06-16-56.png'>CreateAViewUnderSupplier4cand4d2019-07-04-06-16-56</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="690145" started-at="2019-07-04T12:35:30Z" finished-at="2019-07-04T12:47:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="690145" started-at="2019-07-04T12:35:30Z" finished-at="2019-07-04T12:47:00Z">
+      <class name="com.eaf.qa.uitests.PartsAndTradesTest4">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.eaf.qa.uitests.PartsAndTradesTest4@e1de817]" name="before" is-config="true" duration-ms="107" started-at="2019-07-04T18:05:29Z" finished-at="2019-07-04T18:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:com.eaf.qa.uitests.PartsAndTradesTest4@e1de817]" name="driversetup" is-config="true" duration-ms="4612" started-at="2019-07-04T18:05:30Z" finished-at="2019-07-04T18:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method status="PASS" signature="initializePages()[pri:0, instance:com.eaf.qa.uitests.PartsAndTradesTest4@e1de817]" name="initializePages" is-config="true" duration-ms="3" started-at="2019-07-04T18:05:34Z" finished-at="2019-07-04T18:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method status="FAIL" signature="CreateAViewUnderSupplier4cand4d()[pri:0, instance:com.eaf.qa.uitests.PartsAndTradesTest4@e1de817]" name="CreateAViewUnderSupplier4cand4d" duration-ms="681450" started-at="2019-07-04T18:05:34Z" finished-at="2019-07-04T18:16:56Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for com.eaf.qa.base.BasePage$1@65aa6596 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2SEFOJD', ip: '192.168.100.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\win10\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53777}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 383503194335fb37e0a8fad861850d2b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.eaf.qa.base.BasePage$1@65aa6596 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2SEFOJD', ip: '192.168.100.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\win10\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53777}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 383503194335fb37e0a8fad861850d2b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.eaf.qa.base.BasePage.waitTillTextPresent(BasePage.java:430)
+	at com.eaf.qa.cloudops.pages.BasicControllersPage.CreateAView(BasicControllersPage.java:801)
+	at com.eaf.qa.uitests.PartsAndTradesTest4.CreateAViewUnderSupplier4cand4d(PartsAndTradesTest4.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAViewUnderSupplier4cand4d -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.eaf.qa.uitests.PartsAndTradesTest4@e1de817]" name="afterMainMethod" is-config="true" duration-ms="4062" started-at="2019-07-04T18:16:56Z" finished-at="2019-07-04T18:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateAViewUnderSupplier4cand4d status=FAILURE method=PartsAndTradesTest4.CreateAViewUnderSupplier4cand4d()[pri:0, instance:com.eaf.qa.uitests.PartsAndTradesTest4@e1de817] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href= 'D:/eclipse/SM2/SM2_Automation/screenshots/CreateAViewUnderSupplier4cand4d2019-07-04-06-16-56.png'target='_blank' ><img src='D:/eclipse/SM2/SM2_Automation/screenshots/CreateAViewUnderSupplier4cand4d2019-07-04-06-16-56.png'>CreateAViewUnderSupplier4cand4d2019-07-04-06-16-56</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.eaf.qa.uitests.PartsAndTradesTest4@e1de817]" name="tearDownSuite" is-config="true" duration-ms="123" started-at="2019-07-04T18:17:00Z" finished-at="2019-07-04T18:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.eaf.qa.uitests.PartsAndTradesTest4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
