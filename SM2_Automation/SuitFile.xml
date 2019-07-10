@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="1">
+
+  <test name="SM2 Functionality test">
+ 
+    <classes>
+    <class name="com.eaf.qa.uitests.MaintenanceClassesCheckListTest">
+	  <methods>  
+	  <include name="maintenanceClassesCompleteFlow" />
+	  <include name="CreateMultipleMaintenanceClassess" />
+	  <include name="verifyMaintenanceClassesPage" />  
+	  </methods>
+    </class>
+	
+	<class name="com.eaf.qa.uitests.MaintenanceTaskTest">
+	  <methods>  
+	  <include name="createAView" />
+	  <include name="ImportATask" />
+	  <include name="ImportAEntityGroupTask" />  
+	  </methods>
+    </class>
+    
+    <class name="com.eaf.qa.uitests.Maintenence_JobsTest">
+	  <methods>  
+	  <include name="MaintenanceJobsTc_001ToTc_005" />
+	  <include name="AddAJobSample"/>
+	  </methods>	  
+    </class>
+    
+    <class name="com.eaf.qa.uitests.AddMaintenancePlanchecklistTest">
+	  <methods>  
+	  <include name="PlanMaintenanceFlow" />
+	  </methods>
+    </class>
+    
+    <class name="com.eaf.qa.uitests.RefrenceTableTest">
+	  <methods>  
+	  <include name="CreateMultipleEntityGroup" />
+	  <include name="ImportOfUserTest" />
+	  <include name="CreateUser" />  
+	  </methods>
+    </class>
+    
+     <class name="com.eaf.qa.uitests.EquipmentClassesTest">
+	  <methods>  
+	  <include name="verifyEquipmentClassesViewForm" />
+	  <include name="cloneAndDeleteAView" />
+	  <include name="verifyAView" />  
+	  <include name="createAView" />
+	  <include name="hideAndShowAView" />
+	  <include name="validateAViewForm" />  
+	  <include name="editAParticularView" />
+	  <include name="dashboardUnderViewOption" />
+	  <include name="WebServicesUnderViewOption" />
+	  <include name="exportUnderViewOption" />
+	  
+	  </methods>
+    </class>
+		<class name="com.eaf.qa.uitests.TriggerResetHistoryTest">
+	  <methods>  
+	  <include name="TriggerResetHistoryTc_001ToTc_003" />
+	  </methods>	  
+    </class>
+    
+    <class name="com.eaf.qa.uitests.MaintenanceWorkOrdersTest">
+	 <methods>  
+	 <include name="verifyEquipmentClassesViewForm"/>
+	 <include name="cloneAndDeleteAView"/>
+	 <include name="verifyAView"/>
+	 <include name="createAView"/>
+	 <include name="hideAndShowAView"/>
+	 <include name="validateAViewForm"/>
+	 <include name="editAParticularView"/>
+	 <include name="dashboardUnderViewOption"/>
+	 <include name="WebServicesUnderViewOption"/>
+	 <include name="exportUnderViewOption"/>
+	  </methods>	  
+    </class>
+     <class name="com.eaf.qa.uitests.PartsAndTradesTest4">
+	 <methods>  
+	 <include name="CreateStoragelocationsUnderPartsAndTrades4"/>
+	 <include name="SuppliersTestingManualEntryUnderPartsAndTrades4a"/>
+	 <include name="CreateAPartUnderPartsAndTrades4b"/>
+	 <include name="CreateImportModelForSupplierUnderImportsTab4c"/>
+	 <include name="CreateAViewUnderSupplier4cand4d"/>
+	 <include name="SuppliersForGeneratorsTestingManualEntries4e"/>
+	 <include name="CreateManufacturer5"/>
+	 <include name="ImportOfManufacturer5a"/>
+	 <include name="CreateAViewUnderManufacturer5b"/>
+	 <include name="PartsTestingASubViewsupplierHavingApictureInAView5c"/>
+	 <include name="PartsTestingASubViewManufacturerHavingApictureInAView5d"/> 
+	 </methods>	  
+    </class>
+	
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

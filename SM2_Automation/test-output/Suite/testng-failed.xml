@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="methods">
+  <test name="SM2 Functionality test(failed)" parallel="methods">
+    <classes>
+      <class name="com.eaf.qa.uitests.MaintenanceTaskTest">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="before"/>
+          <include name="afterMainMethod"/>
+          <include name="initializePages"/>
+          <include name="ImportATask"/>
+          <include name="driversetup"/>
+        </methods>
+      </class> <!-- com.eaf.qa.uitests.MaintenanceTaskTest -->
+      <class name="com.eaf.qa.uitests.MaintenanceClassesCheckListTest">
+        <methods>
+          <include name="afterMainMethod"/>
+          <include name="initializePages"/>
+          <include name="driversetup"/>
+        </methods>
+      </class> <!-- com.eaf.qa.uitests.MaintenanceClassesCheckListTest -->
+      <class name="com.eaf.qa.uitests.RefrenceTableTest">
+        <methods>
+          <include name="CreateUser"/>
+          <include name="ImportOfUserTest"/>
+          <include name="afterMainMethod"/>
+          <include name="initializePages"/>
+          <include name="driversetup"/>
+        </methods>
+      </class> <!-- com.eaf.qa.uitests.RefrenceTableTest -->
+      <class name="com.eaf.qa.uitests.TriggerResetHistoryTest">
+        <methods>
+          <include name="afterMainMethod"/>
+          <include name="initializePages"/>
+          <include name="driversetup"/>
+        </methods>
+      </class> <!-- com.eaf.qa.uitests.TriggerResetHistoryTest -->
+      <class name="com.eaf.qa.uitests.EquipmentClassesTest">
+        <methods>
+          <include name="editAParticularView"/>
+          <include name="afterMainMethod"/>
+          <include name="initializePages"/>
+          <include name="verifyEquipmentClassesViewForm"/>
+          <include name="driversetup"/>
+        </methods>
+      </class> <!-- com.eaf.qa.uitests.EquipmentClassesTest -->
+      <class name="com.eaf.qa.uitests.AddMaintenancePlanchecklistTest">
+        <methods>
+          <include name="PlanMaintenanceFlow"/>
+          <include name="afterMainMethod"/>
+          <include name="initializePages"/>
+          <include name="driversetup"/>
+        </methods>
+      </class> <!-- com.eaf.qa.uitests.AddMaintenancePlanchecklistTest -->
+      <class name="com.eaf.qa.uitests.MaintenanceWorkOrdersTest">
+        <methods>
+          <include name="cloneAndDeleteAView"/>
+          <include name="editAParticularView"/>
+          <include name="afterMainMethod"/>
+          <include name="initializePages"/>
+          <include name="driversetup"/>
+        </methods>
+      </class> <!-- com.eaf.qa.uitests.MaintenanceWorkOrdersTest -->
+      <class name="com.eaf.qa.uitests.Maintenence_JobsTest">
+        <methods>
+          <include name="MaintenanceJobsTc_001ToTc_005"/>
+          <include name="afterMainMethod"/>
+          <include name="initializePages"/>
+          <include name="driversetup"/>
+        </methods>
+      </class> <!-- com.eaf.qa.uitests.Maintenence_JobsTest -->
+    </classes>
+  </test> <!-- SM2 Functionality test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
